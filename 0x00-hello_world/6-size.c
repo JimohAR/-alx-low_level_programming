@@ -14,12 +14,11 @@ char d;
 float e;
 double f;
 
-printf("Size of Short: %lu \n", (unsigned long)sizeof(a));
-printf("Size of Int: %lu \n", (unsigned long)sizeof(b));
-printf("Size of Long: %lu \n", (unsigned long)sizeof(c));
-printf("Size of Char: %lu \n", (unsigned long)sizeof(d));
-printf("Size of Float: %lu \n", (unsigned long)sizeof(e));
-printf("Size of Double: %lu \n", (unsigned long)sizeof(f));
+printf("Size of char: %lu \n", (unsigned long)sizeof(d));
+printf("Size of int: %lu \n", (unsigned long)sizeof(b));
+printf("Size of long int: %lu \n", (unsigned long)sizeof(c));
+printf("Size of long long int: %lu \n", (unsigned long)sizeof(c)) + (unsigned long)sizeof(c);
+printf("Size of float: %lu \n", (unsigned long)sizeof(e)) + (unsigned long)sizeof(e);
 
 return (0);
 }
