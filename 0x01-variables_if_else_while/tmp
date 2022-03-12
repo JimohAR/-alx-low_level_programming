@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+/**
+ * main - Checks if a value is greater,
+ * less or equal to zero
+ *
+ * Return: 0
+ */
+int main(void)
+{
+
+}
