@@ -19,8 +19,10 @@ int main(void)
 		{
 			for (k = i; k <= 57; k++)
 			{
-				for (l = j + 1; l <= 57; l++)
+				for (l = num; l <= 57; l++)
 				{
+					if (j == i && k == i && l == i)
+						continue;
 					putchar(i);
 					putchar(j);
 					putchar(' ');
