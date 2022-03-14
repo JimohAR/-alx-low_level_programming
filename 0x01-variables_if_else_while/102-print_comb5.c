@@ -13,18 +13,13 @@ int main(void)
 	short int num = 48;
 	short int i, j, k, l;
 
-	i = num;
-
-	for (i; i <= 57; i++)
+	for (i = num; i <= 57; i++)
 	{
-		j = num;
-		for (j; j <= 57; j++)
+		for (j = num; j <= 57; j++)
 		{
-			k = num++;
-			for (k; k <= 57; k++)
+			for (k = i; k <= 57; k++)
 			{
-				l = k + 1;
-				for (l; l <= 57; l++)
+				for (l = j + 1; l <= 57; l++)
 				{
 					putchar(i);
 					putchar(j);
