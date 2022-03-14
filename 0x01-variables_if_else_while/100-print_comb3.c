@@ -13,12 +13,9 @@ int main(void)
 	short int num = 48;
 	short int i, j;
 
-	i = num;
-
-	for (i; i <= 57; i++)
+	for (i = num; i <= 57; i++)
 	{
-		j = i + 1;
-		for (j; j <= 57; j++)
+		for (j = i + 1; j <= 57; j++)
 		{
 			putchar(i);
 			putchar(j);
