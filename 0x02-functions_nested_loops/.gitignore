@@ -1,3 +1,4 @@
-tmp
+tmp*
 .*.sw*
 _putchar.c
+*.out
