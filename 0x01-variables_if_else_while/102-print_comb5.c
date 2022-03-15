@@ -21,7 +21,7 @@ int main(void)
 			{
 				for (l = num; l <= 57; l++)
 				{
-					if (i + j == k + l)
+					if (i >= k && j >= l)
 						continue;
 					putchar(i);
 					putchar(j);
