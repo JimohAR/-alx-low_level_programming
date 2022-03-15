@@ -1,1 +1,1 @@
-practice on c loop and condition statements
+practice on loops and condition statements in C
