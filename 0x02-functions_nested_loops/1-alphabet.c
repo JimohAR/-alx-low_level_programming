@@ -5,7 +5,7 @@
  *
  * Return: 0
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alpha = 'a';
 
@@ -14,6 +14,4 @@ int main(void)
 		alpha++;
 	} while (alpha <= 'z');
 	_putchar('\n');
-
-	return (0);
 }
