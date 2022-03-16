@@ -5,15 +5,15 @@
  * of a given number
  * @n: the number to return its last digit
  *
- * Return: 0 to 9
+ * Return: any value from 0 to 9
  */
 int print_last_digit(int n)
 {
 	int result;
 
 	if (n < 0)
-		n = n * -1;
-	
+		n = n * (-1);
+
 	result = n % 10;
 	_putchar(result + '0');
 
