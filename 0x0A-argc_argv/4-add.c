@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * main - adds all positive numbers passed to program from prompt 
+ * main - adds all positive numbers passed to program from prompt
  * @argc: represents number of arguments passed from prompt
  * @argv: an array of all arguments passed
  *
