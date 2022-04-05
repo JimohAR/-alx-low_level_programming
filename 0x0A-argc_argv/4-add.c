@@ -22,6 +22,9 @@ int main(int argc, char *argv[])
 			printf("%s\n", "Error");
 			return (1);
 		}
+
+		if (val < 0)
+			continue;
 		result += val;
 	}
 	printf("%d\n", result);
