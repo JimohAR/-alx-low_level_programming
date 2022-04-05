@@ -2,14 +2,19 @@
 #include "main.h"
 
 /**
- * main - prints the name of the program
+ * main - prints all arguments passed to a program incuding the program name
  * @argc: represents number of arguments passed from prompt
  * @argv: an array of all arguments passed
  *
  * Return: Always 0 (Success)
  */
-int main(__attribute__((unused)) int argc, char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0]);
+	int i = 0;
+	while (i < argc)
+	{
+		printf("%s\n", argv[i]);
+		i++;
+	}
 	return (0);
 }
