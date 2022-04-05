@@ -1,0 +1,5 @@
+tmp*
+.*.sw*
+_putchar.c
+*.out
+main.c
